@@ -1,0 +1,37 @@
+{
+  "name": "@balmli/homey-homey-logger",
+  "version": "1.0.0",
+  "description": "Logger utility for Homey apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "prebuild": "del dist/",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "node",
+    "homey",
+    "logger"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balmli/node-homey-logger.git"
+  },
+  "author": "bjornar.almli@gmail.com",
+  "bugs": {
+    "url": "https://github.com/balmli/node-homey-logger/issues"
+  },
+  "homepage": "https://github.com/balmli/node-homey-logger#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "cpy-cli": "^4.2.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}

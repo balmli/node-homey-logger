@@ -1,0 +1,9 @@
+/.git
+/.vscode
+/.github
+/.idea
+/lib
+/tests
+/.editorconfig
+/tsconfig.json
+/*.iml
